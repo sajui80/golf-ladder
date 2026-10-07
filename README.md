@@ -2,6 +2,7 @@
 
 ## 폴더 구성
 - `index.html` : 프로그램 본체
+- `fonts/` : 글꼴 파일 폴더 (반드시 함께 업로드)
 - `photos/jaypee.jpg` : 골프장 배경 사진
 - `photos/ball.png` : (선택) 골프공 사진. 넣으면 굴러가는 공이 이 사진으로 표시됨. 없으면 기본 공 그림
 - (선택) 시드별 배경음악 파일: `bgm_exc.mp3`, `bgm_s2.mp3`, `bgm_s3.mp3`, `bgm_s4.mp3`, `bgm_mix.mp3`(MODE 3 통합), `bgm_top.mp3`. index.html 과 같은 위치에 넣으면 해당 라운드에서 재생. 없는 시드는 내장 멜로디 재생
@@ -10,7 +11,7 @@
 ## GitHub 업로드 절차
 1. github.com 로그인 → 우측 상단 `+` → `New repository`
 2. Repository name 입력 (예: `golf-ladder`), `Public` 선택 → `Create repository`
-3. `uploading an existing file` 클릭 → 압축을 푼 `index.html`, `photos` 폴더를 끌어다 놓기 → `Commit changes`
+3. `uploading an existing file` 클릭 → 압축을 푼 `index.html`, `fonts` 폴더, `photos` 폴더를 끌어다 놓기 → `Commit changes`
 4. `Settings` → `Pages` → Branch 를 `main` / `(root)` 로 선택 → `Save`
 5. 1~2분 후 `https://<계정>.github.io/golf-ladder/` 로 접속
 
